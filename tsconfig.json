@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"strict": true,
+		"module": "commonjs",
+		"target": "es5",
+		"lib": [
+			"es2016",
+			"es2017"
+		]
+	},
+	"include": [
+		"index.ts",
+		"./src/*",
+		"./node_modules/@types/node/index.d.ts"
+	]
+}
